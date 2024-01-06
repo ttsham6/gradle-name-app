@@ -29,18 +29,6 @@ application {
 tasks.withType<Test>{
     useJUnitPlatform()
     testLogging {
-//     showStandardStreams("true")
      events("started", "skipped", "passed", "failed")
-//     exceptionFormat("full")
    }
 }
-
-// test {
-//   useJUnitPlatform()
-//
-//   testLogging {
-//     showStandardStreams("true")
-//     events("started", "skipped", "passed", "failed")
-//     exceptionFormat("full")
-//   }
-// }
