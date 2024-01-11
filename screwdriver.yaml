@@ -1,5 +1,7 @@
 shared:
   image: gradle:jdk8
+  environment:
+    SD_COVERAGE_PLUGIN_ENABLED: false
 jobs:
   build:
     steps:
