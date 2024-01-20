@@ -1,5 +1,5 @@
 shared:
-  image: gradle:8.5.0-jdk8
+  image: gradle:8.5.0-jdk17
   environment:
     SD_COVERAGE_PLUGIN_ENABLED: false
 jobs:
